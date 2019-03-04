@@ -10,10 +10,10 @@ Though there are two ways to load PDFs:
  
 It seems the Lazy loading approaching would give us better perceived performance: (test file size: 1.1G, 70000 pages)
  
-Loading Type	Total request	Initial display (stop watch) 	Data transferred	Bkgd loading Done	Use of range request
-
-Pre-fetching	104	            3.22s	                        1122 M (total)	    25s	                Yes
-Lazy Loading	104 + 	        2 – 2.36 s	                    252B	            7.55s	            Yes
+|Loading Type|	Total request|	Initial display (stop watch)| 	Data transferred|	Bkgd loading Done|	Use of range request|
+|------------|---------------|------------------------------|-------------------|--------------------|----------------------|
+|Pre-fetching|	104	         |   3.22s	                    |    1122 M (total)	|    25s	         |       Yes            |
+|Lazy Loading|	104 + 	     |   2 – 2.36 s	                |    252B	        |    7.55s	         |   Yes                |
  
 With Range request turned off, it would take 30.62s to load the same file. 
 
