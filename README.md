@@ -23,7 +23,7 @@ As the next step. I will share my code with you, Matthew, and Anand.
  
 ## Memory footprint comparison (JVM Instance: localhost:8080)
 
-Pre-fetching: 16 MB
-Lazy loading: 4.5 MB
+1. Pre-fetching: 16 MB
+2. Lazy loading: 4.5 MB
 
 
